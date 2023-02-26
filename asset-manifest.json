@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.3dcede4f.js",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.3dcede4f.js.map": "/static/js/main.3dcede4f.js.map"
+    "main.css": "/kaernten-events/static/css/main.073c9b0a.css",
+    "main.js": "/kaernten-events/static/js/main.3dcede4f.js",
+    "index.html": "/kaernten-events/index.html",
+    "main.073c9b0a.css.map": "/kaernten-events/static/css/main.073c9b0a.css.map",
+    "main.3dcede4f.js.map": "/kaernten-events/static/js/main.3dcede4f.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
