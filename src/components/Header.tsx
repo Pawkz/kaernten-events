@@ -43,10 +43,12 @@ export default function DrawerAppBar(props: Props) {
         <Box
           component="img"
           sx={{
+            marginTop: "5px",
+            marginBottom: "5px",
             height: 233,
             width: 350,
-            maxHeight: { xs: 25, md: 50 },
-            maxWidth: { xs: 25, md: 50 },
+            maxHeight: { xs: 50, md: 100 },
+            maxWidth: { xs: 50, md: 100 },
           }}
           alt="logo"
           src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Kaernten_CoA.svg"
