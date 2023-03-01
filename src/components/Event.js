@@ -80,8 +80,7 @@ const Event = (props) => {
           <Typography gutterBottom variant="h6" backgroundColor="paper">
             {moment(state.info.startDate).dayOfYear() ==
             moment(state.info.endDate).dayOfYear()
-              ? //   ? // todo: if only shartdate is availabl
-                moment(state.info.startDate).format("DD.MM.YYYY")
+              ? moment(state.info.startDate).format("DD.MM.YYYY")
               : moment(state.info.startDate).format("DD.MM.YYYY") +
                 " - " +
                 moment(state.info.endDate).format("DD.MM.YYYY")}

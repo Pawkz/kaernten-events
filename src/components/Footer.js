@@ -1,17 +1,24 @@
-// import React, { useState, useEffect } from "react";
-// import Typography from "@mui/material/Typography";
+import React, { useState, useEffect } from "react";
+import Typography from "@mui/material/Typography";
 
-// export default function App() {
-//   return (
-//     <div className="Footer">
-//       <footer>
-//         <Typography varinat="h6" align="center" gutterBottom>
-//           Footer
-//         </Typography>
-//         <Typography variant="subtitle1" align="center" color="textSecondary">
-//           Something here to give the footer a purpose!
-//         </Typography>
-//       </footer>
-//     </div>
-//   );
-// }
+export default function App() {
+  return (
+    <div
+      style={{
+        backgroundColor: "#ff9800",
+        position: "relative",
+        left: 0,
+        bottom: 0,
+      }}
+    >
+      <footer>
+        <Typography varinat="h6" align="center" gutterBottom marginTop="50px">
+          Footer
+        </Typography>
+        <Typography variant="subtitle1" align="center" color="textSecondary">
+          Hier soll der "Footer" implementiert werden
+        </Typography>
+      </footer>
+    </div>
+  );
+}
